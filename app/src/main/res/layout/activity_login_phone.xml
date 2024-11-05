@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Ô nhập số điện thoại -->
+    <EditText
+        android:id="@+id/et_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter phone number"
+        android:inputType="phone"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Nút gửi mã OTP -->
+    <Button
+        android:id="@+id/btn_send_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send OTP"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Ô nhập mã OTP -->
+    <EditText
+        android:id="@+id/et_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter OTP"
+        android:inputType="number"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Nút đăng nhập sau khi nhập mã OTP -->
+    <Button
+        android:id="@+id/btn_verify_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"/>
+</LinearLayout>
+
